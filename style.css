@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+}
+.banner{
+    background-image: linear-gradient(to right, #f04c4c, #aefa78);
+    padding: 10px;
+    flex: auto;
+    text-align: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-around;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+}
+.banner_content-title{
+    color: aqua;
+}
+.banner_content-subtitle{
+    color:red;
+}
+.banner_content-intro{
+    color: aliceblue;
+}
+.product_card{
+    background-color:rgb(127, 161, 255);
+    width: 300px;
+    height: 400px;
+    border: 2px solid white;
+    box-shadow:10px 10px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+    align-items: center;
+    transition: 0.5s;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.product_card:hover{
+    background-color: aliceblue;
+    transform: translateY(-20px);
+    box-shadow: 2px 2px 5px red;
+
+}
+.product_wrapper{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+
+}
+img{
+    width:250px;
+    height: 250px;
+    object-fit: cover;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+    background-color: #f04c4c;
+}
+.footer{
+    background-color: rgb(175, 175, 175);
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
